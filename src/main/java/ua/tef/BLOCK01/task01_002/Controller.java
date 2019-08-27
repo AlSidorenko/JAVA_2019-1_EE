@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @version Id$.
  * @since 0.1.
  */
-public class Controller {
+public class Controller implements TextConstants {
 
     private Model model;
     private View view;
@@ -23,22 +23,22 @@ public class Controller {
         Scanner sc = new Scanner(System.in);
 
         model.setText(inputStrValueWithScanner(sc));
-        view.printMessageResult("Good job! Sentence: ", model.getText());
+        view.printMessageResult(CORRECT_OPERATION, model.getText());
     }
 
     public String inputStrValueWithScanner(Scanner sc) {
         String result = null;
 
-        view.printMessage("Please, enter FIRST word: ");
-        while (!sc.hasNext("Hello")) {
-            view.printMessage("Wrong! Repeat please: ");
+        view.printMessage(FIRS_WORD);
+        while (!sc.hasNext(HELLO)) {
+            view.printMessage(WRONG_OPERATION);
             sc.next();
         }
         result = sc.next() + " ";
 
-        view.printMessage("Please, enter SECOND word: ");
-        while (!sc.hasNext("world!")) {
-            view.printMessage("Wrong! Repeat please: ");
+        view.printMessage(SECOND_WORD);
+        while (!sc.hasNext(WORLD)) {
+            view.printMessage(WRONG_OPERATION);
             sc.next();
         }
         result += sc.next();
