@@ -1,4 +1,4 @@
-package ua.tef.BLOCK02.trainingcod.BubleSort_del;
+package ua.tef.BLOCK02.trainingcod.BubbleSort_del;
 
 import java.util.Arrays;
 

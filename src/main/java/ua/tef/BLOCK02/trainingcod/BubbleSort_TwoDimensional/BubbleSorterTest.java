@@ -1,4 +1,4 @@
-package ua.tef.BLOCK02.trainingcod.BubleSort_TwoDimensional;
+package ua.tef.BLOCK02.trainingcod.BubbleSort_TwoDimensional;
 
 import java.util.Arrays;
 
