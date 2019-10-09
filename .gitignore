@@ -25,6 +25,6 @@
 hs_err_pid*
 
 *.xml
-/.idea/
+*.iml
+.idea
 /target
-/JAVA_2019-1_EE.iml
