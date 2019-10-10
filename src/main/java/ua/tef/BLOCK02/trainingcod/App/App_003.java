@@ -1,4 +1,4 @@
-package ua.tef.BLOCK02.trainingcod;
+package ua.tef.BLOCK02.trainingcod.App;
 
 import java.util.Arrays;
 

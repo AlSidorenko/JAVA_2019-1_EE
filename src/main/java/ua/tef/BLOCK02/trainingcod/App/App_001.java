@@ -1,4 +1,4 @@
-package ua.tef.BLOCK02.trainingcod;
+package ua.tef.BLOCK02.trainingcod.App;
 
 /**
  * Created on 09.10.2019 23:51.
