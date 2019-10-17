@@ -1,4 +1,4 @@
-package ua.tef.BLOCK02.trainingcod.InsertionSorter;
+package ua.tef.BLOCK02.trainingcod.Sorter.InsertionSorter;
 
 /**
  * Created on 10.10.2019 16:10.

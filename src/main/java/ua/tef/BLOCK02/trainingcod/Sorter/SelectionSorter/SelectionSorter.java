@@ -1,4 +1,4 @@
-package ua.tef.BLOCK02.trainingcod.SelectionSorter;
+package ua.tef.BLOCK02.trainingcod.Sorter.SelectionSorter;
 
 /**
  * Created on 10.10.2019 16:01.

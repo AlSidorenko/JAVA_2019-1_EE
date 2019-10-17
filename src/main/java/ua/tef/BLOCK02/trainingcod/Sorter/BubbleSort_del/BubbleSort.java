@@ -1,4 +1,4 @@
-package ua.tef.BLOCK02.trainingcod.BubbleSort_del;
+package ua.tef.BLOCK02.trainingcod.Sorter.BubbleSort_del;
 
 /**
  * Created on 10.10.2019 17:35.

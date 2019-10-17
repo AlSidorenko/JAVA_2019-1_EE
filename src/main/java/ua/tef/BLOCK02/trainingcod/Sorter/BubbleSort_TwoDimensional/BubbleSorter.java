@@ -1,4 +1,4 @@
-package ua.tef.BLOCK02.trainingcod.BubbleSort_TwoDimensional;
+package ua.tef.BLOCK02.trainingcod.Sorter.BubbleSort_TwoDimensional;
 
 /**
  * Created on 10.10.2019 0:19.
